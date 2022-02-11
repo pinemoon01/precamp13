@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+.pb {
+    width: 300px;
+    height: 320px;
+    border: 2px solid blue;
+    display: flex;
+    /* flex-direction: row; 아니면 flex-direction: column 으로 row아니면 column 기준으로 정렬 */
+    /* flex-direction을 따로 안주면 row가 기본값 */
+    justify-content: center;  
+    align-items: center; 
+}
+/* display flex 입력하면 fd 가 row jc가 flex start로 입력됨. */
+/* 부모박스를 기준으로 정렬됨(align) */
+/* width에서 늘리고 줄이면 부모박스가 사이즈가 조정됨 */
+
+.cb{
+    width: 80px;
+    height: 80px;
+    border: 2px solid red;
+    padding: 15px;
+}
